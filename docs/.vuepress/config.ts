@@ -9,7 +9,7 @@ let songFiles = glob
   .map((f) => f.replace("docs", "").replace("index.md", ""));
 
 let eventFiles = glob
-  .sync("docs/events/**/**/*.md")
+  .sync("docs/events/**/*.md")
   .map((f) => f.replace("docs", "").replace("index.md", ""));
 
 import { description } from "../../package.json";
