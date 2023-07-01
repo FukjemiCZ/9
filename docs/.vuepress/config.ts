@@ -42,6 +42,11 @@ export default defineUserConfig({
         link: "/songs/",
       },
       {
+        text: "Events",
+        // notice the trailing / (for the automatic next and prev links based on the sidebar)
+        link: "/events/",
+      },
+      {
         text: "Using this template",
         link: "/template/",
       },

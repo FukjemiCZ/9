@@ -74,6 +74,6 @@ collections:
       - label: "Season"
         name: "season"
         widget: "select"
-        multiple: true
+        multiple: false
         options: ["2023", "2022", "2021"]
         default: ["2023"]
